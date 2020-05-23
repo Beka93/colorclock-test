@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+div {
+  position: relative;
+  top: 50%;
+  margin-top: -40px;
+  font-size: 60px;
+  color: #ffffff;
+  text-align: center;
+}
+
+#clock {
+  box-shadow: inset 0px 10px 27px -8px #383737, inset 0px -10px 27px -8px rgb(206, 35, 49), 5px 5px 15px 5px rgba(45, 93, 138, 0.66);
+  font-family: 'Nanum Myeongjo', serif;
+  padding: 35px;
+  display: inline;
+}
